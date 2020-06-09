@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043BB28F249040A4002F26BB /* LandingHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BB28E249040A4002F26BB /* LandingHandler.swift */; };
 		160C87CA9486DBE5025EABE157073418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */; };
 		2D6C26FFC1643FDB48748EDCE260C072 /* Pods-immuneTesterPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 999D12187A5C16A82B441B2E4202F9F9 /* Pods-immuneTesterPod_Tests-dummy.m */; };
 		401180121298C58B032780AE7A330EC6 /* Pods-immuneTesterPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF475E084FCDBF8CA1683B3257D6F917 /* Pods-immuneTesterPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043BB28E249040A4002F26BB /* LandingHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingHandler.swift; sourceTree = "<group>"; };
 		0737F462D1C0B310C04B5392DF8770C2 /* Pods-immuneTesterPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-immuneTesterPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		12FED4FCCE5027CDB7D8E2C591E342DE /* immuneTesterPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "immuneTesterPod-Info.plist"; sourceTree = "<group>"; };
 		258D9E41A7D2A80D8AB14678768C3AFE /* immuneTesterPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "immuneTesterPod-dummy.m"; sourceTree = "<group>"; };
@@ -47,8 +49,8 @@
 		325DBFECC01337228194C95E607D122D /* Pods-immuneTesterPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-immuneTesterPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		34020D60368F58FEF4F7EF6EA9529385 /* Pods-immuneTesterPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-immuneTesterPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		44B38F879FBCBB8868E0707BC0D85A60 /* Pods-immuneTesterPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-immuneTesterPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		45CF0749FDB32B481F8BA4E506D62A9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4668D6A5DA88601F7DCB54BA676DA37E /* immuneTesterPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = immuneTesterPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45CF0749FDB32B481F8BA4E506D62A9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4668D6A5DA88601F7DCB54BA676DA37E /* immuneTesterPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = immuneTesterPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		48481BD2D7FADC00485EAF2B2B6713EC /* LandingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5463EDB7D7C34B483552ABC921A26BE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,15 +58,15 @@
 		5B31A15AEF545E8EBA9DB87FB9D5747D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		712579D30B9C24E454A6C3DA47F12E37 /* immuneTesterPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = immuneTesterPod.modulemap; sourceTree = "<group>"; };
 		757A9CC350E15069BC3B376CB7A0A6B1 /* immuneTesterPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = immuneTesterPod.debug.xcconfig; sourceTree = "<group>"; };
-		7BE0DEBFA9F20AD2E6467D7717ACCF8D /* Pods_immuneTesterPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_immuneTesterPod_Tests.framework; path = "Pods-immuneTesterPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE0DEBFA9F20AD2E6467D7717ACCF8D /* Pods_immuneTesterPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_immuneTesterPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8448A62D84CA72714C77A2D1C0D66524 /* main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = main.storyboard; path = immuneTesterPod/Assets/main.storyboard; sourceTree = "<group>"; };
-		93CB4C7FD448FB4EF57644E63735B355 /* immuneTesterPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = immuneTesterPod.bundle; path = "immuneTesterPod-immuneTesterPod.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		98E105C02E39E80BCD6CE67FA57C127D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93CB4C7FD448FB4EF57644E63735B355 /* immuneTesterPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = immuneTesterPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E105C02E39E80BCD6CE67FA57C127D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		999D12187A5C16A82B441B2E4202F9F9 /* Pods-immuneTesterPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-immuneTesterPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2B53B6EA7E9AA87C3C870F4A42C5B6A /* immuneTesterPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "immuneTesterPod-prefix.pch"; sourceTree = "<group>"; };
 		AF475E084FCDBF8CA1683B3257D6F917 /* Pods-immuneTesterPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-immuneTesterPod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BCA57DADEBC8F82913072118AA859D46 /* immuneTesterPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = immuneTesterPod.framework; path = immuneTesterPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA57DADEBC8F82913072118AA859D46 /* immuneTesterPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = immuneTesterPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3A95BEE56EF6A35DDDD261382B0EC4 /* immuneTesterPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "immuneTesterPod-umbrella.h"; sourceTree = "<group>"; };
 		CE8271D4A59CFE989A957236B5E59014 /* ResourceBundle-immuneTesterPod-immuneTesterPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-immuneTesterPod-immuneTesterPod-Info.plist"; sourceTree = "<group>"; };
 		D5D0593AC410FBC411E9BF4F856EB4E7 /* Pods-immuneTesterPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-immuneTesterPod_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				48481BD2D7FADC00485EAF2B2B6713EC /* LandingViewController.swift */,
+				043BB28E249040A4002F26BB /* LandingHandler.swift */,
 			);
 			name = Controllers;
 			path = immuneTesterPod/Classes/Controllers;
@@ -382,6 +385,7 @@
 			files = (
 				4ED76197788672EEBE4ECB66051E4075 /* immuneTesterPod-dummy.m in Sources */,
 				446FF47F182086828ED0279FBDDEAE23 /* LandingViewController.swift in Sources */,
+				043BB28F249040A4002F26BB /* LandingHandler.swift in Sources */,
 				CD0A7C40ABB61CA4401035269212CDC0 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,8 +576,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

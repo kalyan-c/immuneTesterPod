@@ -10,7 +10,7 @@
         <!--Landing View Controller-->
         <scene sceneID="kDh-y4-85w">
             <objects>
-                <viewController id="D5b-bq-rgV" customClass="LandingViewController" customModule="immuneTesterPod" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Lander" id="D5b-bq-rgV" customClass="LandingViewController" customModule="immuneTesterPod" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FRI-6Q-yuu"/>
                         <viewControllerLayoutGuide type="bottom" id="yce-l4-Ntb"/>
