@@ -1,0 +1,16 @@
+PODS:
+  - immuneTesterPod (0.1.0)
+
+DEPENDENCIES:
+  - immuneTesterPod (from `../`)
+
+EXTERNAL SOURCES:
+  immuneTesterPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  immuneTesterPod: 3bfa1544682dd330be9a7d32e95c9a3d905433bb
+
+PODFILE CHECKSUM: b088360738d8d519d0e6401025c7040de0da5cc4
+
+COCOAPODS: 1.9.3

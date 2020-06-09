@@ -1,0 +1,6 @@
+framework module Pods_immuneTesterPod_Tests {
+  umbrella header "Pods-immuneTesterPod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
