@@ -1,22 +1,33 @@
 {
   "name": "immuneTesterPod",
   "version": "0.1.0",
-  "summary": "A short description of immuneTesterPod.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/kalyan.c6559@gmail.com/immuneTesterPod",
+  "summary": "immuneTesterPod created",
+  "description": "base version for testing immune is created.",
+  "homepage": "https://github.com/kalyan-c/immuneTesterPod",
+  "swift_versions": "4.0",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "kalyan.c6559@gmail.com": "kalyan.c6559@gmail.com"
+    "kalyan": "kalyan.c6559@gmail.com"
   },
   "source": {
-    "git": "https://github.com/kalyan.c6559@gmail.com/immuneTesterPod.git",
+    "git": "https://github.com/kalyan-c/immuneTesterPod.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "immuneTesterPod/Classes/**/*"
+  "source_files": "immuneTesterPod/Classes/**/*",
+  "resource_bundles": {
+    "immuneTesterPod": [
+      "immuneTesterPod/Assets/*.{storyboard}"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "swift_version": "4.0"
 }
