@@ -16,4 +16,8 @@ public class LandlingHandler {
             vc.receivedString = foundString
         }
     }
+    
+    public static func justPrintString(string : String) {
+        print("received String : \(string)")
+    }
 }
