@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'immuneTesterPod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'immuneTesterPod created'
   s.description      = "base version for testing immune is created."
   s.homepage         = 'https://github.com/kalyan-c/immuneTesterPod'
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'immuneTesterPod' => ['immuneTesterPod/Assets/*.{storyboard}']
   }
-  s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
 end
