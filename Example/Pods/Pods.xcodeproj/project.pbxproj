@@ -146,8 +146,8 @@
 		2197B7DEEE9DE669BE4B1F13EC844621 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				48481BD2D7FADC00485EAF2B2B6713EC /* LandingViewController.swift */,
 				043BB28E249040A4002F26BB /* LandingHandler.swift */,
+				48481BD2D7FADC00485EAF2B2B6713EC /* LandingViewController.swift */,
 			);
 			name = Controllers;
 			path = immuneTesterPod/Classes/Controllers;

@@ -8,9 +8,12 @@
 import UIKit
 
 class LandingViewController: UIViewController {
+    
+    var receivedString : String? = ""
+    @IBOutlet weak var baseLbl: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("pod loaded")
+        baseLbl.text = "You typed : \(receivedString ?? "")"
     }
 }

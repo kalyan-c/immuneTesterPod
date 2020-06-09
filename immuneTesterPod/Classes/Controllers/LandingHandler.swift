@@ -11,7 +11,9 @@ public class LandlingHandler {
     
     private init() {}
     
-    public func loadLandingScreen() {
-        UIStoryboard(name: "main", bundle: nil).instantiateViewController(withIdentifier: "Lander")
+    public static func loadLandingScreen(string : String?) {
+        if let vc = UIStoryboard(name: "main", bundle: nil).instantiateViewController(withIdentifier: "Lander") as? LandingViewController, let foundString = string {
+            vc.receivedString = foundString
+        }
     }
 }
