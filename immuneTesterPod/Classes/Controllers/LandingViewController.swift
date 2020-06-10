@@ -7,13 +7,13 @@
 
 import UIKit
 
-class LandingViewController: UIViewController {
+public class LandingViewController: UIViewController {
     
     var receivedString : String? = ""
     @IBOutlet weak var baseLbl: UILabel!
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
-        baseLbl.text = "You typed : \(receivedString ?? "")"
+        baseLbl.text = "You typed :- \(receivedString ?? "")"
     }
 }
